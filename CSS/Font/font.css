@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+
+h2 {
+    color: black;
+}
+
+/* Multiple Text Decorations */
+.multiple-decoration {
+    text-decoration: underline line-through overline;
+}
+
+/* Line Height */
+.line-height {
+    line-height: 2;
+    /* Adjust line height */
+}
+
+/* Letter Spacing */
+.letter-spacing {
+    letter-spacing: 3px;
+    /* Adjust spacing */
+}
+
+/* Text Indentation */
+.text-indentation {
+    text-indent: 50px;
+}
+
+/* Font Weights */
+.font-thin {
+    font-weight: 100;
+}
+
+.font-light {
+    font-weight: 300;
+}
+
+.font-regular {
+    font-weight: 400;
+}
+
+.font-medium {
+    font-weight: 500;
+}
+
+.font-bold {
+    font-weight: 700;
+}
+
+.font-black {
+    font-weight: 900;
+}
+
+/* Font Style */
+.font-style {
+    font-style: italic;
+}
+
+/* Small Caps */
+.small-caps {
+    font-variant: small-caps;
+}
+
+/* Text Shadow */
+.text-shadow {
+    text-shadow: 2px 2px 5px gray;
+}
+
+/* Word Spacing */
+.word-spacing {
+    word-spacing: 10px;
+}
+
+/* Text Alignment */
+.text-center {
+    text-align: center;
+}
+
+/* Uppercase Text */
+.uppercase {
+    text-transform: uppercase;
+}
+
+/* Lowercase Text */
+.lowercase {
+    text-transform: lowercase;
+}
+
+/* Capitalized Text */
+.capitalize {
+    text-transform: capitalize;
+}
+
+/* Gradient Text */
+.gradient-text {
+    background: linear-gradient(to right, red, blue);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* Rotated Text */
+.rotate-text {
+    display: inline-block;
+    transform: rotate(-10deg);
+}
+
+/* Skewed Text */
+.skew-text {
+    display: inline-block;
+    transform: skewX(10deg);
+}
+
+/* Outlined Text */
+.outlined-text {
+    color: white;
+    -webkit-text-stroke: 1px black;
+}
+
+/* Blinking Text */
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.blink-text {
+    animation: blink 1s infinite;
+}
+
+/* Faded Text */
+.faded-text {
+    opacity: 0.5;
+}
+
+/* Fancy Curved Text */
+.curved-text {
+    font-family: "Brush Script MT", cursive;
+    font-size: 24px;
+}
+
+
+.font-heading {
+    margin: 3rem;
+    font-size: 2rem;
+}
+
+.fonts {
+    color: orange;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.font-container {
+    border: 2px solid rgb(55, 55, 55);
+    margin: -30px 3rem;
+    padding: 2rem;
+    margin-bottom: 3rem;
+}
+
+.roboto p {
+    font-family: "Roboto", sans-serif;
+}
+
+.lato p {
+    font-family: "Lato", sans-serif;
+}
+
+.montserrat p {
+    font-family: "Montserrat", sans-serif;
+}
+
+.playfair p {
+    font-family: "Playfair Display", serif;
+}
+
+.pacifico p {
+    font-family: "Pacifico", cursive;
+}
+
+
+.lobster p {
+    font-family: "Lobster", cursive;
+    font-size: 1.4rem;
+}
+
+.dancing-script p {
+    font-family: "Dancing Script", cursive;
+    font-size: 1.5rem;
+}
+
+.great-vibes p {
+    font-family: "Great Vibes", cursive;
+    font-size: 1.8rem;
+}
+
+.abril-fatface p {
+    font-family: "Abril Fatface", serif;
+    font-size: 1.2rem;
+}
+
+.sacramento p {
+    font-family: "Sacramento", cursive;
+    font-size: 2rem;
+}

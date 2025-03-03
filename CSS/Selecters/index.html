@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elements Selector</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+    /* Selects all paragraph elements */
+    p {
+        font-size: 24px;
+    }
+    p::first-letter{
+        color: olivedrab;
+        text-decoration: underline;
+    }
+    p::before{
+        content: "✨ "; 
+    }
+    p::after {
+        content: " 🌟";
+    }
+</style>
+<body>
+    <p>Hey I am Guddu</p>
+</body>
+</html>
